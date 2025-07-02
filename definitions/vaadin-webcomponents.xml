@@ -304,6 +304,21 @@
             <groupId>org.mvnpm.at.vaadin</groupId>
             <artifactId>popover</artifactId>
             <version>${project.version}</version>
-        </dependency>             
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>markdown</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>vaadin-material-styles</artifactId>
+            <version>${project.version}</version>
+        </dependency>     
+        <dependency>
+            <groupId>org.mvnpm.at.vaadin</groupId>
+            <artifactId>vaadin-themable-mixin</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
 </project>
