@@ -19,9 +19,6 @@
     <issueManagement>
         <url>https://github.com/ueberdosis/tiptap/issues</url>
     </issueManagement>
-    <properties>
-        <tiptap.version>3.12.1</tiptap.version>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>org.mvnpm.at.floating-ui</groupId>
@@ -46,22 +43,22 @@
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>core</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-blockquote</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-bold</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-bubble-menu</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
@@ -71,162 +68,162 @@
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-code-block-lowlight</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-code-block</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-code</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-collaboration</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-document</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-drag-handle</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-dropcursor</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-gapcursor</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-hard-break</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-heading</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-horizontal-rule</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-image</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-italic</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-link</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-list-item</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-list-keymap</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-list</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-node-range</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-ordered-list</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-paragraph</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-strike</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-table-cell</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-table-header</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-table-row</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-table</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-text</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-underline</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extensions</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>markdown</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>pm</artifactId>
-            <version>3.15.3</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>starter-kit</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>suggestion</artifactId>
-            <version>${tiptap.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
