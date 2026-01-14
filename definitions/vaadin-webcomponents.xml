@@ -192,11 +192,6 @@
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.vaadin</groupId>
-            <artifactId>vaadin-material-styles</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.mvnpm.at.vaadin</groupId>
             <artifactId>tooltip</artifactId>
             <version>${project.version}</version>
         </dependency>
