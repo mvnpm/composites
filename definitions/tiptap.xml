@@ -97,6 +97,11 @@
         </dependency>
         <dependency>
             <groupId>org.mvnpm.at.tiptap</groupId>
+            <artifactId>extension-placeholder</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mvnpm.at.tiptap</groupId>
             <artifactId>extension-dropcursor</artifactId>
             <version>${project.version}</version>
         </dependency>
